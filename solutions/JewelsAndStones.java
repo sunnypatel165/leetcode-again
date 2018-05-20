@@ -7,7 +7,7 @@ Problem Link:
     Jewels And Stones: https://leetcode.com/problems/jewels-and-stones/description/
 
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/solutions/FlippingAnImage.java
+    https://github.com/sunnypatel165/leetcode-again/solutions/JewelsAndStones.java
 
 Author:
     Sunny Patel
