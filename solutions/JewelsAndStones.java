@@ -7,7 +7,7 @@ Problem Link:
     Jewels And Stones: https://leetcode.com/problems/jewels-and-stones/description/
 
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/solutions/JewelsAndStones.java
+    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/JewelsAndStones.java
 
 Author:
     Sunny Patel

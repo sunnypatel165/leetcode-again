@@ -9,7 +9,7 @@ Return the number of different transformations among all words we have.
 Problem Link:
     Unique Morse Code Words: https://leetcode.com/problems/unique-morse-code-words/description/
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/solutions/UniqueMorseCodeWords.java
+    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/UniqueMorseCodeWords.java
 
 Author:
     Sunny Patel

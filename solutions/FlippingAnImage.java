@@ -8,7 +8,7 @@ Problem Link:
     Flipping an Image: https://leetcode.com/problems/flipping-an-image/description/
 
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/solutions/FlippingAnImage.java
+    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/FlippingAnImage.java
 
 Author:
     Sunny Patel
