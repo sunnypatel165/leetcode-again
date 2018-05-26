@@ -2,9 +2,9 @@
 
 My solutions to LeetCode Problems. Sounds banal I know.
 
-But I wanted to capture the problems I am solving a little more formally.
+But I wanted to capture the solutions a little more formally.
 
-Also most "famous" repos are C++ and Python based and I prefer Java these days over C++.
+Also most "famous" Leetcode solutions' repos are C++ and Python based and I prefer Java these days, so this is different in a way.
 
 | # | Title | My Solution | LeetCode Solution | Difficulty |
 |---| ----- | ----------- | ------------------ | ---------- |
