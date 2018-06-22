@@ -8,7 +8,7 @@ Given a lower and upper number bound, output a list of every possible self divid
 Problem Link:
     Self Dividing Numbers: https://leetcode.com/problems/subdomain-visit-count/description/
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/SubdomainVisitCounts.java
+    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/SubdomainVisitCount.java
 
 Author:
     Sunny Patel
