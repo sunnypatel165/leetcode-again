@@ -6,7 +6,7 @@ For example, employee 1 is the leader of employee 2, and employee 2 is the leade
 Now given the employee information of a company, and an employee id, you need to return the total importance value of this employee and all his subordinates.
 
 Problem Link:
-    Fair Candy Swap: https://leetcode.com/problems/employee-importance/description/
+    EmployeeImportance: https://leetcode.com/problems/employee-importance/description/
 
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/EmployeeImportance.java
