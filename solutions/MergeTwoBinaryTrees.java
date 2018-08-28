@@ -4,7 +4,7 @@ Given two binary trees and imagine that when you put one of them to cover the ot
 You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.
 
 Problem Link:
-    Judge Route Circle: https://leetcode.com/problems/merge-two-binary-trees/description/
+    Merge Two Binary Trees: https://leetcode.com/problems/merge-two-binary-trees/description/
 
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/MergeTwoBinaryTrees.java
