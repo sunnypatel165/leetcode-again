@@ -15,6 +15,35 @@ Author:
     https://www.linkedin.com/in/sunnypatel165/
 
  */
+//////////////// RECURSIVE SOLUTION AT THE BOTTOM /////////////////
+class Solution {
+    List<Integer> list = new ArrayList<>();
+    public List<Integer> preorderTraversal(TreeNode root) {
+        if(root==null)
+            return list;
+
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            if(node!=null){
+                list.add(node.val);
+                stack.push(node.right);
+                stack.push(node.left);
+            }
+        }
+        return list;
+    }
+    public List<Intger> preorderTraversalRecursive(TreeNode root){
+        if(root==null)
+            return list;
+        list.add(root.val);
+        preorderTraversal(root.left);
+        preorderTraversal(root.right);
+        return list;
+    }
+}
+ /*
 class Solution {
     List<Integer> list = new ArrayList<>();
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -26,3 +55,4 @@ class Solution {
         return list;
     }
 }
+*/
