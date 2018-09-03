@@ -7,7 +7,7 @@ Problem Link:
     N-Ary Tree Pre Order Traversal:https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/
 
 Solution:
-    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/NAryTreePostOrderTraversal.java
+    https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/NAryTreePreOrderTraversal.java
 
 Author:
     Sunny Patel
