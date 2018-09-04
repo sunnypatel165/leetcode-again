@@ -17,10 +17,21 @@ Author:
     https://www.linkedin.com/in/sunnypatel165/
 
  */
+
  class Solution {
      public boolean canFinish(int numCourses, int[][] prerequisites) {
          return topologicalSortUsingKahnsAlgortihm(numCourses, prerequisites);
      }
+
+     /* Kahns Algorithm:
+         - Find Degrees of Each node in the graph and add the ones with 0 degree to the queue, Visited 0
+            - Pick the node with degree 0
+            - Increment Visited and decrease degree of each neighbor by 1
+            - If any neighbor's degree becomes 0 then add it to the queue
+         - If at any point the queue is empty but visited!=numberOfNodes then Toplogical Order does not exist
+
+
+     */
      public boolean topologicalSortUsingKahnsAlgortihm(int numCourses, int[][] prerequisites){
          boolean[][] adj = new boolean[numCourses][numCourses];
 
