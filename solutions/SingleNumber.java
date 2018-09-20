@@ -7,7 +7,7 @@ Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 Problem Link:
-    Assign Cookies: https://leetcode.com/problems/single-number/description/
+    Single Number: https://leetcode.com/problems/single-number/description/
 
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/SingleNumber.java
