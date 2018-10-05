@@ -4,7 +4,7 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 
 
 Problem Link:
-    Assign Cookies: https://leetcode.com/problems/power-of-four/description/
+    Power Of Four: https://leetcode.com/problems/power-of-four/description/
 
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/PowerOfFour.java
