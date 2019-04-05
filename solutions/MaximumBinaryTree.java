@@ -8,8 +8,8 @@ Given an integer array with no duplicates. A maximum tree building on this array
 Construct the maximum tree by the given array and output the root node of this tree.
 
 Problem Link:
-    Judge Route Circle: https://leetcode.com/problems/maximum-binary-tree/description/
-
+    Maximum Binary Tree: https://leetcode.com/problems/maximum-binary-tree/description/
+    
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/MaximumBinaryTree.java
 
