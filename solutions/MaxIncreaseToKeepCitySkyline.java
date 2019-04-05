@@ -6,7 +6,7 @@ At the end, the "skyline" when viewed from all four directions of the grid, i.e.
 What is the maximum total sum that the height of the buildings can be increased?
 
 Problem Link:
-    Judge Route Circle: https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/
+    Max Increase To Keep City Skyline: https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/
 
 Solution:
     https://github.com/sunnypatel165/leetcode-again/blob/master/solutions/MaxIncreaseToKeepCitySkyline.java
