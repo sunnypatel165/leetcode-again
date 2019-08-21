@@ -18,26 +18,34 @@ Author:
     https://www.linkedin.com/in/sunnypatel165/
 
  */
-class Solution {
-
-    Map<Integer, Employee> map = new HashMap<>();
-    public int getImportance(List<Employee> employees, int id) {
-        for(Employee e: employees){
-            map.put(e.id, e);
-        }
-        return getImportanceUsingDfs( id);
-    }
-    public int getImportanceUsingDfs( int id){
-        Employee employee = map.get(id);
-        int score = employee.importance;
-
-        List<Integer> subordinates = employee.subordinates;
-        if(subordinates.size()==0)
-            return score;
-
-        for(int s: subordinates){
-            score += getImportanceUsingDfs(s);
-        }
-        return score;
-    }
-}
+ class Solution {
+     Map<Integer, Employee> idToEmployee = new HashMap<>();
+     public int getImportance(List<Employee> employees, int id) {
+         for(Employee e: employees){
+             idToEmployee.put(e.id, e);
+         }
+        return getImportanceDFS(employees, id);
+         // return getImportanceBFS(employees,id);
+     }
+     public int getImportanceDFS(List<Employee> employees, int id){
+         Employee e = idToEmployee.get(id);
+         int totalImportance =e.importance;
+         for(int i: e.subordinates){
+             totalImportance += getImportanceDFS(employees, i);
+         }
+         return totalImportance;
+     }
+     public int getImportanceBFS(List<Employee> employees, int id) {
+         Stack<Employee> stack = new Stack<>();
+         stack.push(idToEmployee.get(id));
+         int totalImportance = 0;
+         while(!stack.isEmpty()){
+             Employee e = stack.pop();
+             totalImportance += e.importance;
+             for(int i:e.subordinates){
+                 stack.push(idToEmployee.get(i));
+             }
+         }
+         return totalImportance;
+     }
+ }
